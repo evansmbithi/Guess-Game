@@ -140,16 +140,16 @@ alert(hello);
 
 var result;
 while(result !== '1'){
-    think = "Think of a number";
+    think = "Think of a number and note it down,\nyou will need the same number later on";
     alert(think);
-    times = "Multiply it by 2"
+    times = "Multiply the number by 2"
     alert(times);
     add_processor = processor();
     addition = "Add " + add_processor + " ...";
     alert(addition);
     divide = "Divide the result by two";
     alert(divide);
-    subtract = "Finally,\nsubtract the number you had in mind from the result";
+    subtract = "Finally,\nsubtract the number you noted down from the result";
     alert(subtract);
     result = prompt("Do you have an answer in mind?\n1. Yes\n2. No");
 }
