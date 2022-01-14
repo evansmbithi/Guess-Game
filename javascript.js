@@ -149,7 +149,7 @@ while(result !== '1'){
     alert(addition);
     divide = "Divide the result by two";
     alert(divide);
-    subtract = "Finally,\nsubtract the number you noted down from the result";
+    subtract = "Finally,\nsubtract the number you noted down from what you got";
     alert(subtract);
     result = prompt("Do you have an answer in mind?\n1. Yes\n2. No");
 }
